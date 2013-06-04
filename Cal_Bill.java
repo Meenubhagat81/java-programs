@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Cal_Bill {
@@ -5,13 +6,13 @@ public class Cal_Bill {
 
 		Scanner cal = new Scanner(System.in);
 
-		System.out
-				.println("Enter number of units for calculating the bill : \n");
+		System.out.println("Enter number of units for calculating the bill : \n");
 
 		double Bill = cal.nextDouble();
 
 		double B = 1;
 
+		
 		if (Bill < 100) {
 
 			System.out.println("Calculated Bill is : $ " + B);
