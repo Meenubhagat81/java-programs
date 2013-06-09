@@ -1,3 +1,5 @@
+/* rotating an array to left */
+
 import java.util.Scanner;
 
 
