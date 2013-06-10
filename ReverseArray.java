@@ -1,4 +1,4 @@
-package com.sumitarora;
+
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * input array = 1, 2, 3, 4
  * output array = 2, 3, 4, 1
  */
-public class RotateArray {
+public class ReverseArray {
 	
 	public static void main(String[] args) {
 		
