@@ -1,3 +1,12 @@
+
+/* Add Character to first and last to the String
+ * 
+ *  eg: hello output is ohelloo
+ *  
+ */
+
+
+
 import java.util.Scanner;
 
 public class StringAddChar {
