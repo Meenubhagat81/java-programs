@@ -2,9 +2,8 @@
 
 import java.util.Scanner;
 
-
 public class RotateArray {
-	
+
 	public static void main(String[] args) {
 		int t;
 		int SIZE = 3;
@@ -14,17 +13,20 @@ public class RotateArray {
 		System.out.println("Enter Element : ");
 		for (int i = 0; i < SIZE; i++) {
 			array[i] = element.nextInt();
-			
-		}
-		
-		for (int j = 0; j < SIZE; j++) {
-			t = array[0];
-			array[j] = array[j+1];
-			array[j+1] = t;
-			
-		}
-		
-		
-	}
 
+		}
+
+		t = array[0];
+
+		for (int j = 0; j < SIZE - 1; j++) {
+			if (j <= SIZE - 1) {
+				array[j] = array[j + 1];
+				System.out.println(array[j]);
+			}
+
+		}
+
+		array[0] = t;
+		System.out.println(array[0]);
+	}
 }
