@@ -1,3 +1,5 @@
+/* calculate bill on 
+the basis of units */
 
 import java.util.Scanner;
 
