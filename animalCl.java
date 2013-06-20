@@ -31,10 +31,12 @@ public static void main(String[] args) {
 	///////////////////=====child class obj ====>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 	herbivoures herb1 = new herbivoures();
 	herb1.herb();
+	herb1.frog();
 	
 	carnivouroues c1 = new carnivouroues();
 	System.out.println("\n\n carnivouroues class is child class of animal: "+c1.childclassName);
 	c1.features();
+	c1.fox();
 	
 }
 
